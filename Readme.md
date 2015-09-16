@@ -40,9 +40,10 @@ parametric-svg-patch
 ```js
 const parse = require('parametric-svg-parse');
 const patch = require('parametric-svg-patch');
-const ast = parse(document.querySelector('#cool-rectangle'));
+const rectangle = document.querySelector('#cool-rectangle');
+const ast = parse(rectangle);
 
-patch(ast, {
+patch(rectangle, ast, {
   a: 10,
   b: 20,
 });
