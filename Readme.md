@@ -23,9 +23,38 @@ parametric-svg-patch
 **Update a parametric SVG element with new data. A low-level library.**
 
 
-**Heads up!** This is totally a work in progress. [Thoughts and ideas][] are very welcome.
+<a                                                 id="/example"></a>&nbsp;
 
-[Thoughts and ideas]:  https://github.com/tomekwi/parametric-svg-patch/issues
+```xml
+<rect
+  id="cool-rectangle"
+  parametric:x="2 * a"
+  parametric:y="b + 5"
+/>
+```
+
+**+**
+
+```js
+const parse = require('parametric-svg-parse');
+const patch = require('parametric-svg-patch');
+const ast = parse(document.querySelector('#cool-rectangle'));
+
+patch(ast, {
+  a: 10,
+  b: 20,
+});
+```
+
+**=**
+
+```xml
+<rect
+  id="cool-rectangle"
+  x="20" parametric:x="2 * a"
+  y="25" parametric:y="b + 5"
+/>
+```
 
 
 
