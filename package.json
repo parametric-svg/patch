@@ -41,6 +41,6 @@
   "author": "Tomek Wiszniewski <t.wiszniewski@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomekwi/parametric-svg-patch"
+    "url": "git@github.com:parametric-svg/patch"
   }
 }

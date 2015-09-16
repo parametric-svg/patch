@@ -1,12 +1,12 @@
 [![Coveralls – test coverage
-](https://img.shields.io/coveralls/tomekwi/parametric-svg-patch.svg?style=flat-square)
-](https://coveralls.io/r/tomekwi/parametric-svg-patch)
+](https://img.shields.io/coveralls/parametric-svg/parametric-svg-patch.svg?style=flat-square)
+](https://coveralls.io/r/parametric-svg/parametric-svg-patch)
  [![Travis – build status
-](https://img.shields.io/travis/tomekwi/parametric-svg-patch/master.svg?style=flat-square)
-](https://travis-ci.org/tomekwi/parametric-svg-patch)
+](https://img.shields.io/travis/parametric-svg/parametric-svg-patch/master.svg?style=flat-square)
+](https://travis-ci.org/parametric-svg/parametric-svg-patch)
  [![David – status of dependencies
-](https://img.shields.io/david/tomekwi/parametric-svg-patch.svg?style=flat-square)
-](https://david-dm.org/tomekwi/parametric-svg-patch)
+](https://img.shields.io/david/parametric-svg/parametric-svg-patch.svg?style=flat-square)
+](https://david-dm.org/parametric-svg/parametric-svg-patch)
  [![Stability: experimental
 ](https://img.shields.io/badge/stability-experimental-yellow.svg?style=flat-square)
 ](https://nodejs.org/api/documentation.html#documentation_stability_index)
