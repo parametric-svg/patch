@@ -33,9 +33,7 @@ parametric-svg-patch
 />
 ```
 
-<p align="center"><b>
-  +
-</b></p>
+<p align="center">➕</p>
 
 ```js
 const parse = require('parametric-svg-parse');
@@ -49,9 +47,7 @@ patch(rectangle, ast, {
 });
 ```
 
-<p align="center"><b>
-  ↓
-</b></p>
+<p align="center">➔</p>
 
 ```xml
 <rect
