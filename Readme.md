@@ -81,7 +81,7 @@ $ npm install parametric-svg-patch
 Usage
 -----
 
-*Work in progress…*
+<!-- @doxie.inject start --><!-- @doxie.inject end -->
 
 
 
