@@ -33,7 +33,9 @@ parametric-svg-patch
 />
 ```
 
-**+**
+<p align="center"><b>
+  +
+</b></p>
 
 ```js
 const parse = require('parametric-svg-parse');
@@ -46,7 +48,9 @@ patch(ast, {
 });
 ```
 
-**=**
+<p align="center"><b>
+  ↓
+</b></p>
 
 ```xml
 <rect
