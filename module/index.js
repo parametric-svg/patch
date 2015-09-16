@@ -1,3 +1,5 @@
+const arrayFrom = require('array-from');
+
  /**
   * The `element` will be updated in place with bindings from the `ast` using
   * the `variables` you give us. The `ast` should generally come from the module
@@ -20,3 +22,17 @@
   *     variables: Object
   *   ) => void
   */
+export default (element, ast, variables) => {
+  if (ast.type !== 'ParametricSvgAst' || ast.version >= 2) {
+    throw new Error('Incompatible AST object');
+  }
+
+  arrayFrom(ast.attributes).forEach(({address, name, relation}) => {
+    const node = address.reduce(
+      (parent, indexInParent) => parent.children[indexInParent],
+      element
+    );
+
+    node.setAttribute(name, relation());
+  });
+};
