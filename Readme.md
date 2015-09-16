@@ -79,12 +79,14 @@ Usage
 
 <!-- @doxie.inject start -->
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
+<p align="right"><sub><a href="http://jsig.biz/">JSIG SIGNATURE:</a></sub></p>
+
 <h3><pre>
-  patch(
-    element: DOMElement,
-    ast: ParametricSvgAst,
-    variables: Object
-  ) => void
+patch(
+  element: DOMElement,
+  ast: ParametricSvgAst,
+  variables: Object
+) => void
 </pre></h3>
 
 The `element` will be updated in place with bindings from the `ast` using
