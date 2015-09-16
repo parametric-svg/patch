@@ -90,7 +90,7 @@ patch(
 </pre></h3>
 
 The `element` will be updated in place with bindings from the `ast` using
-the `variables` you give us. The `ast` will generally come from the module
+the `variables` you give us. The `ast` should generally come from the module
 [parametric-svg-parse][]. You can also generate it yourself using
 [parametric-svg-ast][].
 
