@@ -39,7 +39,7 @@
     "nodangel": "1.3.8",
     "opn-cli": "1.0.0",
     "parametric-svg-parse": "1.0.0-alpha",
-    "parametric-svg-spec": "git://github.com/parametric-svg/spec.git#3fc21c1d4a2ac2d9342d3c23e052623872355c35",
+    "parametric-svg-spec": "git://github.com/parametric-svg/spec.git#a9bf39e67a8b47c1da41f69944739354596bf2b7",
     "raw-loader": "0.5.1",
     "rimraf": "2.4.3",
     "tap-spec": "2.2.2",
