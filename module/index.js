@@ -1,5 +1,10 @@
 const arrayFrom = require('array-from');
 
+const children = (node) => (
+  node.children ||
+  arrayFrom(node.childNodes).filter(({nodeType}) => nodeType === 1)
+);
+
  /**
   * The `element` will be updated in place with bindings from the `ast` using
   * the `variables` you give us. The `ast` should generally come from the module
@@ -29,7 +34,7 @@ export default (element, ast, variables) => {
 
   arrayFrom(ast.attributes).forEach(({address, name, relation}) => {
     const node = address.reduce(
-      (parent, indexInParent) => parent.children[indexInParent],
+      (parent, indexInParent) => children(parent)[indexInParent],
       element
     );
 
