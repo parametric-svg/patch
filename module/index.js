@@ -38,6 +38,6 @@ export default (element, ast, variables) => {
       element
     );
 
-    node.setAttribute(name, relation());
+    node.setAttribute(name, relation(variables));
   });
 };
