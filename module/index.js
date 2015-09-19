@@ -38,6 +38,7 @@ export default (element, ast, variables) => {
       element
     );
 
-    node.setAttribute(name, relation(variables));
+    const result = relation(variables);
+    if (typeof result !== 'undefined') node.setAttribute(name, result);
   });
 };
