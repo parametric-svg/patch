@@ -110,8 +110,8 @@ require.ensure([
       }));
 
       const ast = parse(rootElements.original);
-
       patch(rootElements.original, ast, data);
+
       is.equal(
         toString(rootElements.original),
         toString(rootElements.expected),
